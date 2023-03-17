@@ -11,8 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap" rel="stylesheet"> 
-    <script src='mainScript.js'></script>
-    <script src="roboStatus.js"></script>
+    <script src="mainScript.js"></script>
+    <script src="roboStatus.js" defer></script>
 </head>
 <body>
     <main>
@@ -61,45 +61,45 @@
                     <div class="peca">
                         <label for="" class="peca-titulo">Braços</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
-                            <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste">+</buttom>
+                            <button type="button" class="decrescer-controle-ajuste" id="botao">-</button>
+                            <input type="text" class="controle-contador" id="entrada"value="00">
+                            <button type="button" class="acrescer-controle-ajuste">+</button>
                         </div>
                     </div>
                     <hr class="linha">
-                    <div class="peca">
+                    <div class="peca">  
                         <label for="" class="peca-titulo">Blindagem</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
+                            <button type="button" class="decrescer-controle-ajuste">-</button>
                             <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste" onclick="">+</buttom>
+                            <button type="button" class="acrescer-controle-ajuste" onclick="">+</button>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Núcleos</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
+                            <button type="button" class="decrescer-controle-ajuste">-</button>
                             <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste">+</buttom>
+                            <button type="button" class="acrescer-controle-ajuste">+</button>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Pernas</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
+                            <button type="button" class="decrescer-controle-ajuste">-</button>
                             <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste">+</buttom>
+                            <button type="button" class="acrescer-controle-ajuste">+</button>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Foguetes</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
+                            <button type="button" class="decrescer-controle-ajuste">-</button>
                             <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste">+</buttom>
+                            <button type="button" class="acrescer-controle-ajuste">+</button>
                         </div>
                     </div>
                 </div>

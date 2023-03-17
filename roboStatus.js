@@ -1,8 +1,9 @@
-const botoes = document.getElementsByClassName("controle-ajuste");
-var inputs = this.document.getElementsByClassName("controle-contador");
+const botao = document.getElementById("botao")
+const botoes = document.getElementsByClassName("decrescer-controle-ajuste");
+// const decrescerBotao = document.getElementsByClassName("decrescer-controle-ajuste");
+// const acrescerBotao = document.getElementsByClassName("decrescer-controle-ajuste");
 
-for (let i = 0; i < botoes.length; i++) {
-    botoes[i].addEventListener('click', function() {
-        alert(seila);
-    });
-  }
+botoes[0].addEventListener("click", () =>{
+    document.getElementById("entrada").value = 1
+})
+

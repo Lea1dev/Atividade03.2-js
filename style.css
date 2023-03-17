@@ -112,7 +112,7 @@ main {
     padding-top: 8px;
 }
 
-.controle-ajuste {
+.decrescer-controle-ajuste, .acrescer-controle-ajuste {
     display: inline-block;
     justify-content: center;
     width: 40px;
